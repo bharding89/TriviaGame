@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Our CSS style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+  </head>
+
+  <body>
+<div class="jumbotron">
+  <h1 class="display-3">Pop Quiz!</h1>
+  <p class="lead">You have thirty seconds to answer the following questions and hit submit!</p>
+  <hr class="my-4">
+  <div id="time-left"></div>
+ 
+</div>
+
+ <div class="container" id="main">
+<CENTER><h2>Where was Abraham Lincoln born?</h2>
+	<div class="row">
+	<form>
+<div class="col-md-4">
+      <input type="radio" name="question1" id="1a" value="1">Kentucky</div>
+     <div class="col-md-4">
+      <input type="radio" name="question1" id="1b" value="0">Virginia</div>
+     <div class="col-md-4">
+      <input type="radio" name="question1" id="1c" value="0">Illinois</div>
+      
+     
+    </div> 
+    <hr>
+    <CENTER><h2>Who was the only President to serve more than two terms?</h2>
+   <div class="row">  
+     <div class="col-md-4">
+      <input type="radio" name="question2" id="2a" value="0">Warran G Harding</div>
+     <div class="col-md-4">
+      <input type="radio" name="question2" id="2b" value="1">Franklin Roosevelt</div>
+     <div class="col-md-4">
+      <input type="radio" name="question2" id="2c" value="0">James Polk</div>
+	</div><hr>
+  <CENTER><h2>The Scopes Trial took place in what state?</h2>
+	<div class="row">
+	
+    <div class="col-md-4">
+      <input type="radio" name="question3" id="3a" value="1">Tennessee</div>
+     <div class="col-md-4">
+      <input type="radio" name="question3" id="3b" value="0">Georgia</div>
+     <div class="col-md-4">
+      <input type="radio" name="question3" id="3c" value="0">Missouri</div>
+     </div>
+      <hr>
+<CENTER><h2>In what year did the US signed the treaty to purchase Alaska from Russia?</h2>
+  <div class="row">
+     <div class="col-md-4">
+      <input type="radio" name="question3" id="4a" value="0">1889</div>
+     <div class="col-md-4">
+      <input type="radio" name="question3" id="4b" value="0">1904</div>
+     <div class="col-md-4">
+      <input type="radio" name="question3" id="4c" value="1">1867</div>
+     </div>
+     </CENTER>
+	</form>
+	</div>
+  </div>
+  <div class="container">
+<center><button type="button" class="btn btn-primary btn-lg" onclick="check()" >Submit</button>
+<div id="time-left"><center></div>
+
+  </body>
+
+</html>

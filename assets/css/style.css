@@ -1,0 +1,11 @@
+body {
+    background-image:("assets/images/background-pattern.jpg") ;
+	background-color: grey;
+}
+#main {
+	background-color: #3ba56e;
+	width: 80%;
+	padding: 20px;
+
+
+}
